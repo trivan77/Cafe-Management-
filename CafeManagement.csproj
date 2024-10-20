@@ -51,6 +51,12 @@
     <Compile Include="Model\Store.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\UserBase.cs" />
+    <Compile Include="View\FormChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormChinh.Designer.cs">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\FormChinh.resx">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,7 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image\CoffeeLogo.png" />
-    <Content Include="Image\LogInTitle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

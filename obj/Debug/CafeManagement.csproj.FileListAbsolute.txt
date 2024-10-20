@@ -1,0 +1,11 @@
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\bin\Debug\CafeManagement.exe.config
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\bin\Debug\CafeManagement.exe
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\bin\Debug\CafeManagement.pdb
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.FormDangNhap.resources
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.Properties.Resources.resources
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.csproj.GenerateResource.cache
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.csproj.CoreCompileInputs.cache
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.exe
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.pdb
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.csproj.AssemblyReference.cache
+E:\WorkSpace\CaoHoc\CSDL\Project\Cafe-Management-\obj\Debug\CafeManagement.View.FormChinh.resources
