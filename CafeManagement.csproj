@@ -33,8 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\..\Download\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\Download\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\..\Download\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\Download\BunifuCrack-main\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>..\..\..\Download\BunifuCrack-main\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\Download\BunifuCrack-main\BunifuCrack-main\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,7 +70,6 @@
     <Compile Include="Model\ImportRecord.cs" />
     <Compile Include="Model\Store.cs" />
     <Compile Include="Model\User.cs" />
-    <Compile Include="Model\UserBase.cs" />
     <Compile Include="View\FormChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +84,43 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\FormDSPhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormDSPhieu.Designer.cs">
+      <DependentUpon>FormDSPhieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormKhoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormKhoHang.Designer.cs">
+      <DependentUpon>FormKhoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormPhieuChuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormPhieuChuyen.Designer.cs">
+      <DependentUpon>FormPhieuChuyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormPhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormPhieuNhap.Designer.cs">
+      <DependentUpon>FormPhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormPhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormPhieuXuat.Designer.cs">
+      <DependentUpon>FormPhieuXuat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="View\FormChinh.resx">
       <DependentUpon>FormChinh.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +137,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\FormDSPhieu.resx">
+      <DependentUpon>FormDSPhieu.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,7 +157,19 @@
     <Folder Include="Controller\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Image\CoffeeLogo.png" />
+    <Content Include="Image\DSPhieu.png" />
+    <Content Include="Image\home.png" />
+    <Content Include="Image\Kho.png" />
+    <Content Include="Image\Login_Background.png" />
+    <Content Include="Image\logout.png" />
+    <Content Include="Image\PhieuDieuChuyen.png" />
+    <Content Include="Image\PhieuNhap.png" />
+    <Content Include="Image\PhieuXuat.png" />
+    <Content Include="Image\QLPhieu.png" />
+    <Content Include="Image\shop_white.png" />
+    <Content Include="Image\shop.png" />
+    <Content Include="Image\filter.png" />
+    <Content Include="Image\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
